@@ -10,7 +10,7 @@
   --accent-color: #ff0070;
   --focus-title-text-color: #DB00FF;
   --font-color-highlighted-title: #000028;
-  --article-text-color: #F1B2CE;
+  --text-color: #F1B2CE;
   --border-color-button-on-focus-active: var(--accent-color);
   --border-color-button-hover: rgba(255,0,12, 0.4);
   --text-color-nav-buttons: var(--accent-color);
