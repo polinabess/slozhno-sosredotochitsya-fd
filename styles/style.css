@@ -5,7 +5,7 @@
   font-size: 18px;
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
   background-color: var(--bg-color);
-  background-attachment: fixed
+  background-attachment: fixed;
 }
 
 h2,
@@ -174,7 +174,7 @@ h4 {
 }
 
 .section_title {
-  color: var(--accent-color);
+  color: var(--color-section-title);
   font-weight: 700;
   line-height: 23.4px;
   letter-spacing: 0%;
@@ -242,7 +242,7 @@ h4 {
 .gallery-item {
   width: 100%;
   height: auto;
-  object-fit: contain; 
+  object-fit: contain;
 }
 
 .footer {
@@ -328,7 +328,7 @@ h4 {
     grid-row: auto;
   }
   .container-section_title-reduce-focus {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, max(236px) 1fr 1fr);
   }
   .section_title-reduce-focus {
     grid-column: 1/2;
