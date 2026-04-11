@@ -169,7 +169,7 @@ h4 {
 
 .section {
   display: grid;
-  gap: 20px;  
+  gap: 20px;
   padding: 0 10px 0 10px;
 }
 
@@ -251,7 +251,7 @@ h4 {
   block-size: 100vh;
 }
 
-.footer__title-focus {  
+.footer__title-focus {
   justify-self: center;
   align-self: center;
   text-shadow: 2px 2px 0 var(--accent-color);
