@@ -16,3 +16,8 @@
   --text-color-nav-buttons: var(--accent-color);
   --color-decorative-corner: var(--accent-color);
 }
+
+.theme-dark .header__decoration-element,
+.theme-dark .header__decoration-element::after {
+  display: flex;
+}

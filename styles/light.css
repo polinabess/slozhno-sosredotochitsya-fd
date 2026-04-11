@@ -29,11 +29,13 @@
     --text-color-nav-buttons: var(--text-color);
     --color-decorative-corner: var(--text-color);
   }
+  .header__decoration-element,
+  .header__decoration-element::after {
+    display: none;
+  }
 }
 
-.theme-light .header__decoration-element {
-  display: none;
-}
+.theme-light .header__decoration-element,
 .theme-light .header__decoration-element::after {
   display: none;
 }
