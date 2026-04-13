@@ -350,10 +350,8 @@ h4 {
     gap: 20px;
   }
   .gallery {
-    display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    width: 100%;
   }
   .gallery-item {
     justify-content: stretch;
